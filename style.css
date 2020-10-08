@@ -1,0 +1,65 @@
+body{
+    background-color: #f5f6fa;
+}
+
+h1{
+    color: rgba(0, 0, 0, 0.842);
+}
+
+.text{
+    height: 300px;
+
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.37);
+
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: white;
+}
+
+
+
+button{
+    margin-top: 15px;
+    padding: 8px;
+
+    outline: none;
+    
+    border: none;
+    border-radius: 16px;
+    
+    background-color:#0097e6;
+    color: white;
+}
+
+button:nth-last-child(1){
+    background-color: transparent;
+    
+    border: 1px solid rgba(0, 0, 0, 0.37);
+
+    color: #a7a7a7;
+}
+
+@media (max-width: 360px){
+    *{
+        font-size: 1.2em;
+    }
+    .container{
+        width: 90%;
+        height: 100vh;
+
+        margin: 0 auto;
+
+        padding: 15px;
+
+        display: flex;
+        flex-direction: column;
+
+        text-align: center;
+
+
+        
+    }
+
+
+} 
